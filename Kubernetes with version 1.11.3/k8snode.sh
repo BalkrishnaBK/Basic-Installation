@@ -1,13 +1,21 @@
 #!/bin/bash
-#title          :k8snode.sh
-#description    :This script will create k8s nodes.
-#author		    :Balkrishna Atmaram Londhe 
+#title          : k8snode.sh
+#description    : This script will create k8s nodes and will attach them to kubernetes master 
+#author		    : Balkrishna Mangal Atmaram Londhe 
 #Email          : londhebalkrishna@gmail.com
-#version        :0.7    
-#usage		    :sudo sh k8snode.sh
-#notes          :Install Vim and Emacs to usethis script.
-#==============================================================================
-echo " K8s Master Installation Started " 
+#version        : 0.7    
+#usage		    : sudo sh k8snode.sh
+#notes          : Install Vim and Emacs to usethis script.
+#============================================================================================================================================================
+# Copyright (c) 2020 Balkrishna Mangal Atmaram Londhe (BK) - All Rights Reserved
+# You may use, distribute and modify this code under the
+# terms of the MIT License
+# 
+# You should have received a copy of the MIT License with
+# this file. If not, please write to: londhebalkrishna@gmail.com , or visit : https://github.com/BalkrishnaBK/Basic-Installation/blob/master/LICENSE
+#============================================================================================================================================================
+#
+echo " K8s Node Installation Started " 
 sudo apt-get update
 sudo apt-get upgrade
 echo " Curl installation Started " 

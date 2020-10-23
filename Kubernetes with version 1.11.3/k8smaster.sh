@@ -1,12 +1,20 @@
 #!/bin/bash
-#title          :k8smaster.sh
-#description    :This script will create k8s master.
-#author		    :Balkrishna Atmaram Londhe 
-#Email          : londhebalkrishna@gmail.cm
-#version        :0.7    
-#usage		    :sudo sh k8smaster.sh
-#notes          :Install Vim and Emacs to usethis script.
-#==============================================================================
+#title          : k8smaster.sh
+#description    : This script will create k8s master
+#author		    : Balkrishna Mangal Atmaram Londhe 
+#Email          : londhebalkrishna@gmail.com
+#version        : 0.7    
+#usage		    : sudo sh k8smaster.sh
+#notes          : Install Vim and Emacs to usethis script.
+#============================================================================================================================================================
+# Copyright (c) 2020 Balkrishna Mangal Atmaram Londhe (BK) - All Rights Reserved
+# You may use, distribute and modify this code under the
+# terms of the MIT License
+# 
+# You should have received a copy of the MIT License with
+# this file. If not, please write to: londhebalkrishna@gmail.com , or visit : https://github.com/BalkrishnaBK/Basic-Installation/blob/master/LICENSE
+#============================================================================================================================================================
+#
 echo " K8s Master Installation Started " 
 sudo apt-get update
 sudo apt-get upgrade
