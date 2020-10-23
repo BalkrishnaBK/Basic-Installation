@@ -6,10 +6,10 @@ This github repository will help you to deploy/Install basic applications with K
 
 ## Contents
 
-- [Kubernetes installation with version 1.11.3](#setup-and-configuration)
-    - [Run k8smaster.sh](#making-edits--customizing-the-template)
-    - [Run k8snode.shasd](#using-the-template-as-is)
-- [ToDo's](#license)
+- [Kubernetes installation with version 1.11.3](#kubernetes-installation-with-version-1113)
+    - [Run k8smaster.sh](#run-k8smastersh)
+    - [Run k8snode.shasd](#run-k8snodesh)
+- [ToDo's](#todos)
 - [License](#license)
 
 ## Kubernetes installation with version 1.11.3
@@ -63,4 +63,4 @@ Once you will run above script on machine youre kubernetes node will get added t
 
 ## License
 
-Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
+Completely free (MIT)! See [LICENSE](LICENSE) for more.
